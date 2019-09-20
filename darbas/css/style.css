@@ -29,3 +29,9 @@ a[href$=".docx"]{
 body{
 	background-image: url("https://pbs.twimg.com/media/CuqN-WHVUAA-hva.jpg:large");
 }
+ul :nth-child(odd){
+	background-color: brown;
+}
+ul :nth-child(even){
+	background-color: green;
+}
