@@ -1,0 +1,31 @@
+/*universalus sektorius*/
+*{
+	background-color: aquamarine;
+}
+
+/*elemento sektroius*/
+main{
+	background-color: tomato;
+}
+/*ID sektorius*/
+article#super{
+}
+.strong{
+	background-color: green;
+}
+/*atributo selektorius*/
+a[href="http://www.kitm.lt"]{
+	background-color: yellow;
+}
+a[href$=".png"]{
+	background-color: purple;
+}
+a[href$=".jpeg"]{
+	background-color: aqua;
+}
+a[href$=".docx"]{
+	background-color: white;
+}
+body{
+	background-image: url("https://pbs.twimg.com/media/CuqN-WHVUAA-hva.jpg:large");
+}
