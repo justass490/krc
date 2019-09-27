@@ -1,0 +1,41 @@
+.container{
+	width: 35%;
+	margin: 0 auto;
+}
+h1{
+ font-size: 100px; 
+ text-align: center;
+}
+.boxtext{
+	margin: 0 auto;
+	height: 50px;
+	width: 1200px;
+	padding: 5px;
+	font-size: 22px;
+	text-align: center;
+	border-top-style: double;
+	border-bottom-style: double;
+}
+.articles{
+	text-align: center;
+}
+.articles div{
+	margin-right: auto;
+	margin-left: auto;
+	list-style: none;
+	padding: 10px;
+	display: inline-block;
+	width: 200px;
+	height: 130px;
+}
+.articles div a{
+	text-decoration: none;
+	color: black;
+}
+.articles div a:hover{
+	color: #db3327;
+}
+footer{
+	text-align: center;
+	opacity: 0.5
+}
