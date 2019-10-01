@@ -1,0 +1,43 @@
+header h1{
+	font-size: 60;
+	text-align: center;
+	background-color: #409ac9;
+	padding-top: 60;
+	height: 20%;
+}
+.container{
+	background-color: #6eebd2;
+}
+nav ul li {
+	padding-top: 15;
+	width: 160;
+	height: 30;
+	background-color: #8353b5;
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	color: #ffffff;
+}
+li:hover{
+	background-color: #ba3d3d;
+}
+li:active{
+	background-color: #57ed00;
+}
+article{
+	background-color: #d5f547;
+	width: 1000;
+	float: left;
+}
+aside h4 li{
+	width: 160;
+	height: 30;
+	background-color: #4287f5;
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	color: #ffffff;
+}
+a {
+	color: white;
+}
