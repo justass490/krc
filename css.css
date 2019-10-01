@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Cambo);
+body {
+	font-family:"Cambo";
+}
+header *{
+	text-align:center;
+	margin:0 auto;
+	}
+.headimg{
+	max-width:100%;
+	height:auto;
+}
+.text1{
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size:200%;
+}
+.text2{
+	max-width:90%;
+	padding-top:2%;
+	padding-bottom:2%;
+	border-color: #C8C8C8;
+	border-top-style:double;
+	border-bottom-style:double;
+	font-size: 60%;
+	font-weight:bold;
+}
+.articles{
+	padding-top:2%;
+	text-align:center;
+}
+.article{
+	display:inline-block;
+	vertical-align:top;
+	max-width:20%;
+	padding:1%;	
+}
+.article a{
+	white-space:nowrap;
+	display:block;
+	text-align:left;
+	color:black;
+	text-decoration:none;
+	font-size:150%;
+}
+.article a:hover{
+	color:red;
+}
+.article img{
+	height:0.5em;
+	width:0.5em;
+}
+.article p{
+	text-align: justify;
+}
+footer{
+	padding-top:2%;
+	text-align: center;
+}
+footer *{
+	display:inline-block;
+}
+footer a{
+	text-decoration:none;
+	font-size:20px;
+	font-style:bold;
+	color:black;
+}
+footer a:hover{
+	color:red;
+}
+footer img{
+	height:20px;
+	width:20px;
+}
+footer p{
+	color:#C8C8C8;
+}
