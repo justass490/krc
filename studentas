@@ -1,0 +1,39 @@
+public class studentas {
+    String vardas;
+    String pavarde;
+    String id;
+    String grupe;
+
+    public void student(String vardas, String pavarde, String id, String grupe) {
+        this.vardas = vardas;
+        this.pavarde = pavarde;
+        this.id = id;
+        this.grupe = grupe;
+    }
+
+    public String getVardas() {
+        return vardas;
+    }
+
+    public String getPavarde() {
+        return pavarde;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getGrupe() {
+        return grupe;
+    }
+
+    public String toString() {
+        return ("Vardas: " + this.getVardas() + "Pavarde: " + this.getPavarde() + "Id: " + this.getId() + "Grupe: " + this.getGrupe());
+
+    }
+
+    public static void main(String[] args) {
+        studentas Justas = new studentas("Justas", "Sadauskas", "20", "j19");
+        System.out.println();
+    }
+}
