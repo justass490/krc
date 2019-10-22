@@ -17,6 +17,7 @@ h3{
 	display: flex;
 }
 .wrapper div, .wrapper2 div{
+	box-shadow: 10px 10px 5px grey;
 	font-weight: bold;
 	border: solid;
 	border-width: 1px;
