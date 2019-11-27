@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function printArea(areaName)
+        {
+            var printContents = document.getElementById(areaName).innerHTML;
+            var originalContents = document.body.innerHTML;
+
+            document.body.innerHTML = printContents;
+
+            window.print();
+
+            document.body.innerHTML = originalContents;
+        }
+    </script>
+</head>
+<body>
+<div id="printThis">
+    Hello I am a printable area
+</div>
+<input type="button" onclick="printArea('printThis');" Value="Print">
+</body>
+</html>
