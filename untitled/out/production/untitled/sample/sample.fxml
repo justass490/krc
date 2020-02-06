@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="360.0" maxWidth="240.0" minHeight="360.0" minWidth="240.0" prefHeight="360.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutY="120.0" maxHeight="60.0" prefHeight="60.0" prefWidth="180.0">
+         <children>
+            <Button fx:id="num7" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="7" />
+            <Button fx:id="num8" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="8" />
+            <Button fx:id="num9" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="9" />
+         </children>
+      </HBox>
+      <DialogPane layoutY="-1.0" maxWidth="240.0" minWidth="240.0" prefHeight="109.0" prefWidth="240.0" />
+      <HBox layoutY="180.0" maxHeight="60.0" prefHeight="60.0" prefWidth="180.0">
+         <children>
+            <Button fx:id="num4" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="4" />
+            <Button fx:id="num5" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="5" />
+            <Button fx:id="num6" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="6" />
+         </children>
+      </HBox>
+      <HBox layoutY="240.0" maxHeight="60.0" prefHeight="60.0" prefWidth="180.0">
+         <children>
+            <Button fx:id="num1" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="1" />
+            <Button fx:id="num2" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="2" />
+            <Button fx:id="num3" maxWidth="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" text="3" />
+         </children>
+      </HBox>
+      <HBox layoutY="300.0" maxHeight="60.0" prefHeight="60.0" prefWidth="180.0">
+         <children>
+            <Button fx:id="num0" maxWidth="120.0" minWidth="120.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" text="0" />
+            <Button fx:id="dot" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="." />
+         </children>
+      </HBox>
+      <HBox layoutX="90.0" layoutY="210.0" maxHeight="60.0" maxWidth="240.0" minHeight="60.0" minWidth="240.0" prefHeight="60.0" prefWidth="240.0" rotate="90.0">
+         <children>
+            <Button fx:id="minus" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" rotate="-90.0" text="-" />
+            <Button fx:id="plus" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" rotate="-90.0" text="+" />
+            <Button fx:id="division" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" rotate="-90.0" text="/" />
+            <Button fx:id="multiplication" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" rotate="-90.0" text="*" />
+         </children>
+      </HBox>
+   </children>
+</Pane>
